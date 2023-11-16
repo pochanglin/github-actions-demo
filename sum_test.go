@@ -9,7 +9,7 @@ import (
 func TestSum(t *testing.T) {
 	result := demo.Sum(1, 2)
 
-	if result != 3 {
+	if result != 4 {
 		t.Error("testing sum failed!")
 	}
 }
